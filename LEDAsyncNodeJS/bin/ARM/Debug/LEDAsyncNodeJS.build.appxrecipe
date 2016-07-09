@@ -1,0 +1,1483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>OKULICH-MSI</Machine>
+    <WindowsUser>Okulich-MSI</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>6c702339-77a1-4336-acf7-9831bbb1b381</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Okulich-MSI</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\obj\ARM\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\bin\ARM\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\index.html">
+      <PackagePath>index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\package.json">
+      <PackagePath>package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\server.js">
+      <PackagePath>server.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\NodejsUWP\ARM\node.dll">
+      <PackagePath>node.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\NodejsUWP\ARM\nodeuwp.dll">
+      <PackagePath>nodeuwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft Visual Studio 14.0\VC\redist\onecore\ARM\Microsoft.VC140.CRT\msvcp140.dll">
+      <PackagePath>msvcp140.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft Visual Studio 14.0\VC\redist\onecore\ARM\Microsoft.VC140.CRT\vccorlib140.dll">
+      <PackagePath>vccorlib140.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft Visual Studio 14.0\VC\redist\onecore\ARM\Microsoft.VC140.CRT\vcruntime140.dll">
+      <PackagePath>vcruntime140.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\bin\ARM\Debug\startupinfo.xml">
+      <PackagePath>startupinfo.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\lib\client.js">
+      <PackagePath>node_modules\socket.io\lib\client.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\lib\index.js">
+      <PackagePath>node_modules\socket.io\lib\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\lib\namespace.js">
+      <PackagePath>node_modules\socket.io\lib\namespace.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\lib\socket.js">
+      <PackagePath>node_modules\socket.io\lib\socket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\browser.js">
+      <PackagePath>node_modules\socket.io\node_modules\debug\browser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\debug.js">
+      <PackagePath>node_modules\socket.io\node_modules\debug\debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\node.js">
+      <PackagePath>node_modules\socket.io\node_modules\debug\node.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\node_modules\ms\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\debug\node_modules\ms\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\engine.io.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\engine.io.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\server.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\server.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\socket.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\socket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\transport.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\transport.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\transports\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\transports\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\transports\polling-jsonp.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\transports\polling-jsonp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\transports\polling-xhr.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\transports\polling-xhr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\transports\polling.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\transports\polling.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\lib\transports\websocket.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\lib\transports\websocket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\charset.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\charset.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\encoding.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\encoding.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\language.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\language.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\mediaType.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\mediaType.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\negotiator.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\lib\negotiator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\base64id\lib\base64id.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\base64id\lib\base64id.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\BufferPool.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\BufferPool.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\BufferUtil.fallback.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\BufferUtil.fallback.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\BufferUtil.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\BufferUtil.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\ErrorCodes.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\ErrorCodes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Extensions.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Extensions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\PerMessageDeflate.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\PerMessageDeflate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Receiver.hixie.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Receiver.hixie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Receiver.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Receiver.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Sender.hixie.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Sender.hixie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Sender.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Sender.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Validation.fallback.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Validation.fallback.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Validation.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\Validation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\WebSocket.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\WebSocket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\WebSocketServer.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\lib\WebSocketServer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\lib\options.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\lib\options.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\lib\browser.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\lib\browser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\lib\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\lib\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\lib\keys.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\lib\keys.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\test\after-test.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\test\after-test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\test\slice-buffer.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\test\slice-buffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\grunt.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\grunt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\lib\base64-arraybuffer.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\lib\base64-arraybuffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\test\base64-arraybuffer_test.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\test\base64-arraybuffer_test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\test\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\test\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\build\build.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\build\build.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\Gruntfile.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\Gruntfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\utf8.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\utf8.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\tests\tests.js">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\tests\tests.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\node_modules\isarray\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\node_modules\isarray\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\node_modules\isarray\build\build.js">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\node_modules\isarray\build\build.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\binary.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\binary.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\is-buffer.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\is-buffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\bench\bench.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\bench\bench.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\bench\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\bench\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\benchmark.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\benchmark.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\test\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\test\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\debug.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\lib\debug.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\lib\debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\build\build.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\build\build.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\prettify.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\prettify.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\lib\json3.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\lib\json3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\lib\json3.min.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\lib\json3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\socket.io.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\socket.io.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\lib\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\lib\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\lib\manager.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\lib\manager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\lib\on.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\lib\on.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\lib\socket.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\lib\socket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\lib\url.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\lib\url.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\test\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\test\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\example.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\example.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\engine.io.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\engine.io.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\socket.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\socket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transport.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transport.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\xmlhttprequest.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\xmlhttprequest.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\polling-jsonp.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\polling-jsonp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\polling-xhr.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\polling-xhr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\polling.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\polling.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\websocket.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\lib\transports\websocket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\test\inherit.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\test\inherit.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\BufferPool.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\BufferPool.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\BufferUtil.fallback.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\BufferUtil.fallback.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\BufferUtil.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\BufferUtil.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\ErrorCodes.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\ErrorCodes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Extensions.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Extensions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\PerMessageDeflate.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\PerMessageDeflate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Receiver.hixie.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Receiver.hixie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Receiver.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Receiver.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Sender.hixie.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Sender.hixie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Sender.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Sender.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Validation.fallback.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Validation.fallback.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Validation.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\Validation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\WebSocket.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\WebSocket.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\WebSocketServer.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\lib\WebSocketServer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\lib\options.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\lib\options.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\example\demo.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\example\demo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\lib\XMLHttpRequest.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\lib\XMLHttpRequest.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-constants.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-constants.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-events.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-events.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-exceptions.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-exceptions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-headers.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-headers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-redirect-302.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-redirect-302.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-redirect-303.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-redirect-303.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-redirect-307.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-redirect-307.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-request-methods.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-request-methods.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-request-protocols.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\test-request-protocols.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\test\object.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\test\object.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\binary.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\binary.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\is-buffer.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\is-buffer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\bench\bench.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\bench\bench.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\bench\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\bench\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\benchmark.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\benchmark.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\test\test.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\test\test.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\index.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\build\build.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\build\build.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\lib\json3.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\lib\json3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\lib\json3.min.js">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\lib\json3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\uwp.node">
+      <PackagePath>node_modules\uwp.node</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\.npmignore">
+      <PackagePath>node_modules\socket.io\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\debug\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\node_modules\ms\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\debug\node_modules\ms\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\base64id\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\base64id\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\.npmignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\.npmignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\.travis.yml">
+      <PackagePath>node_modules\socket.io\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\.zuul.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\.zuul.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\.zuul.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\.zuul.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\.zuul.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\.zuul.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\.zuul.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\.zuul.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\.zuul.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\.zuul.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\.travis.yml">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\History.md">
+      <PackagePath>node_modules\socket.io\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\Readme.md">
+      <PackagePath>node_modules\socket.io\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\debug\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\debug\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\node_modules\ms\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\debug\node_modules\ms\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\node_modules\ms\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\debug\node_modules\ms\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\HISTORY.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\HISTORY.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\HISTORY.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\HISTORY.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\HISTORY.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\HISTORY.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\base64id\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\base64id\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\SECURITY.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\SECURITY.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\node_modules\isarray\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\node_modules\isarray\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\doc\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\doc\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\doc\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\doc\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\History.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\Readme.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\Readme.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\README.md">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\LICENSE">
+      <PackagePath>node_modules\socket.io\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\Makefile">
+      <PackagePath>node_modules\socket.io\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\debug\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\node_modules\ms\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\debug\node_modules\ms\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\LICENCE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\LICENCE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\LICENSE-MIT">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\LICENSE-MIT</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\LICENCE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\LICENCE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\Makefile">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\Makefile</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\LICENSE">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\package.json">
+      <PackagePath>node_modules\socket.io\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\bower.json">
+      <PackagePath>node_modules\socket.io\node_modules\debug\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\debug\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\debug\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\node_modules\ms\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\debug\node_modules\ms\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\db.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\db.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\mime-types\node_modules\mime-db\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\accepts\node_modules\negotiator\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\base64id\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\base64id\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\options\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io\node_modules\ws\node_modules\ultron\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\after\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\arraybuffer.slice\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\blob\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\fixtures\big.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\fixtures\big.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\has-binary\node_modules\isarray\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\bower.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\node_modules\isarray\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\node_modules\isarray\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\has-binary\node_modules\isarray\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\has-binary\node_modules\isarray\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\bower.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\component-emitter\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\debug\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\isarray\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\coverage.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\coverage.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\backo2\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\better-assert\node_modules\callsite\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-bind\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\component-emitter\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\bower.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-emitter\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\component-inherit\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\has-cors\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parsejson\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\parseqs\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\options\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\ultron\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\yeast\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\indexof\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\object-component\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\parseuri\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\to-array\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\bower.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\component-emitter\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\component.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\component.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\isarray\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\package.json">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\json3\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\debug\.jshintrc">
+      <PackagePath>node_modules\socket.io\node_modules\debug\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\package.json~">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\package.json~</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\README.md~">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\base64-arraybuffer\README.md~</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\.gitattributes">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\.gitattributes</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\LICENSE-MIT.txt">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\LICENSE-MIT.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\LICENSE.txt">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\testdata.txt">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\tests\testdata.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\LICENSE.txt">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\tests\generate-test-data.py">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\tests\generate-test-data.py</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\tests\index.html">
+      <PackagePath>node_modules\socket.io\node_modules\engine.io-parser\node_modules\utf8\tests\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\lib\json3.js.html">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\lib\json3.js.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\test\run-test.sh">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\benchmark\test\run-test.sh</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\test\run-test.sh">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-parser\node_modules\benchmark\test\run-test.sh</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.gitmodules">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.gitmodules</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.jamignore">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\.jamignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov.info">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov.info</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\prettify.css">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-adapter\node_modules\socket.io-parser\node_modules\json3\coverage\lcov-report\prettify.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\autotest.watchr">
+      <PackagePath>node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\xmlhttprequest-ssl\autotest.watchr</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.10586.0\\redist\Debug\arm\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Okulich-MSI\Documents\Visual Studio 2015\Projects\IoT_Win10\LEDAsyncNodeJS\LEDAsyncNodeJS\bin\ARM\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.24210.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.24210.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

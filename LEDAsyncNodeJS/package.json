@@ -1,0 +1,13 @@
+{
+  "name": "ledasync-node-js",
+  "version": "0.0.0",
+  "description": "LEDAsyncNodeJS",
+  "main": "server.js",
+  "author": {
+    "name": "Okulich-MSI",
+    "email": ""
+  },
+  "dependencies": {
+    "socket.io": "^1.4.8"
+  }
+}
